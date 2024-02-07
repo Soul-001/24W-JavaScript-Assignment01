@@ -1,0 +1,44 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    /* Bright and colorful gradient background */
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+h1, h2 {
+    color: #ff69b4; /* Bright pink for headings */
+}
+
+button {
+    background-color: #00ffd0; 
+    color: #ff4500; 
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff4500; 
+    color: #ffffff; 
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#story {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #7fffd4; 
+    border-left: 5px solid #ff69b4; 
+    font-size: 18px;
+}
+#studentnumber{
+    color: red;
+}
