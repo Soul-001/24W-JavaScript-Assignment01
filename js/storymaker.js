@@ -4,7 +4,7 @@ const verbs = ["battles", "searches for", "transforms into", "summons", "trains 
 const adjectives = ["a powerful", "an elusive", "a legendary", "a mysterious", "a magical", "a brave"];
 const nouns2 = ["dragon", "pirate ship", "Pokémon", "demon", "robot", "sword"];
 const settings = ["in Konoha", "across the Grand Line", "on Namek", "in Tokyo", "in the Digital World", "at Hogwarts"];
-const stn=["200520843"];// used just for student no.
+
 
 // Variables to store chosen words
 let chosenNoun1 = '';
@@ -12,7 +12,7 @@ let chosenVerb = '';
 let chosenAdjective = '';
 let chosenNoun2 = '';
 let chosenSetting = '';
-let chosenstn = '';
+
 
 
 // Function to get a random element from an array
@@ -47,12 +47,6 @@ document.getElementById('setting').addEventListener('click', function() {
     document.getElementById('chosenSetting').textContent = chosenSetting;
 });
 
-
-// for student number
-document.getElementById('mystudentnumber').addEventListener('click', function() {
-    studentnumber = getNewRandomElement(mystudentnumber);
-    document.getElementById('studentnumber').textContent = 200520843;
-});
 
 
 // Function to show the current story
